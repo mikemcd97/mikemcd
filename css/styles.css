@@ -1,0 +1,112 @@
+h1, h2 {
+  font-family: 'Bitter', serif;
+  color: #333;
+}
+
+h1{
+  font-size: 3em;
+  margin: 2%;
+  margin-left: 10%;
+  margin-bottom: 0;
+}
+
+h2{
+  border-bottom: solid 1px #333;
+  display: inline-block;
+}
+
+p {
+  font-family: 'Raleway', serif;
+  color: #333;
+  font-size: 1.1em;
+}
+
+a{
+  font-family: 'Raleway', serif;
+  font-weight: bold;
+  color: #cc346b;
+}
+
+#description{
+  margin: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 1.5em;
+}
+
+#header-stuff{
+
+  margin-right: 15%;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+#page-container{
+  margin-top: 3.5%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#projects-container {
+  width: 71%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-right: 15%;
+}
+
+
+.project {
+
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.links {
+  margin-left: 10%;
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#drizzle {
+  width: 40%;
+}
+
+#jerome {
+  width: 50%;
+}
+
+#gitLink {
+  margin-right: 9%;
+}
+
+@media only screen and (max-width: 650px){
+  #projects-container {
+    flex-flow: column;
+    width: 100%;
+    align-items: flex-start;
+    margin-right: 0;
+    margin-left: 10%;
+  }
+
+  #drizzle {
+    width: 85%;
+  }
+
+  #jerome {
+    width: 85%
+  }
+  #description {
+    width: 100%;
+    font-size: 1.2em;
+  }
+
+}
